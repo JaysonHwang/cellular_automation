@@ -1,0 +1,11 @@
+body { 
+	padding-top: 40px; 
+	}
+	
+.brd {
+    border: 3px solid #B8B8B8; /* Параметры границы */
+   }
+   
+.txt {
+	padding: 5px; 
+}

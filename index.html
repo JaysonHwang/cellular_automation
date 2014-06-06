@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Cellular Automation</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/extra.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="ca.js"></script>				
+	</head>
+	<body>
+		<div class="container">
+	      <div class="row">
+	      	<div class="span7">
+	      		<canvas id="a" class="brd" width="500" height="500">no canvas available</canvas> 		
+	      	</div>	      	
+	      	<div class="span5">
+				<div class="well well-large">
+	  						<h3>Cellular Automation</h3>
+	  						<p>
+								In mathematics and computability theory, an elementary cellular automaton is a one-dimensional cellular automaton where there are two possible states (labeled 0 and 1) and the rule to determine the state of a cell in the next generation depends only on the current state of the cell and its two immediate neighbors. As such it is one of the simplest possible models of computation.
+							</p>
+				</div>
+				
+				<div class="span2">
+					<div class="row">
+						<div><p class="txt" align="center">Rule number (1..256)</p></div>												
+					</div>
+				</div>
+				<div class="span2">
+					<div class="row">
+						<div><input id="rule" align="center" type="text" style="width: 50%;"/></div>														
+					</div>
+				</div>
+				<div class="span1">
+					<button id="btn_action" class="btn btn-primary">Start</button>
+				</div>
+			</div>
+		      		 
+	      </div>
+	    </div>	    
+	</body>
+</html>
